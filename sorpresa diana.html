@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤ te deseo un Feliz cunpleaños diana de tu niño bonito XD ❤</title>
+    <title> ❤ si eres diana pon si sino no ❤ </title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="shortcut icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_corazón.svg/1200px-Heart_corazón.svg.png"
+        type="image/x-icon">
+    </head>
+    <head>
+    <style>
+    .body {
+        background: crimson;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    }
+    .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero__image-container {
+    display: flex;
+    width: 100%;
+    max-width: 512px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 0.5rem 0 black;
+}
+.hero__image {
+    width: 100%;
+}
+
+.hero__button {
+    background: white;
+    border: 0.125rem solid black;
+    border-radius: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    letter-spacing: 0.125rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1em;
+    padding: 1em;
+    transition: all 0.5s;
+}
+
+.hero__button:hover {
+    box-shadow: 0 0.5rem 0.5rem 0 black;
+    filter: brightness(125%);
+    transform: scale(1.125);
+}
+    </style> 
+</head>
+
+<body class="body">
+    <article class="hero">
+        <h1 class="hero__title">❤ te deseo un Feliz cumpleaños diana de tu niño bonito XD ❤ </h1>
+        <h1 class="hero__title">❤ si eres diana pon Si soy si no Nel Perro ❤ </h1>
+        <figure class="hero__image-container">
+        <img
+            src="https://1.bp.blogspot.com/-qsvCBLdgYj8/XCLjZK9_RMI/AAAAAAAABBA/BsQ7kYtn9qkPkQ3VhF8g_1Er73bGs7KGQCLcBGAs/w1200-h630-p-k-no-nu/srewk.jpg"
+            alt="Imagen del amor" class="hero__image" />
+        </figure>   
+        <button id="heroButtonSi" class="hero__button">😀Si soy😁</button>
+        <button id="heroButtonNo" class="hero__button">😭Nel Perro😭</button>
+    </article>
+
+    <script>;
+
+const documentReady = () => {
+  const heroTitle = document.querySelector('.hero__title');
+  const heroButtonSi = document.getElementById('heroButtonSi');
+  const heroButtonNo = document.querySelector('#heroButtonNo');
+
+  const nowZomosNobios = () => {
+    alert(' en serio eres diana 🤔 si lo eres acepta sino cierra la pagina 😉');
+    alert('Pon aceptar te espera una sorpresa 😜 ');
+    location.href = 'https://www.youtube.com/watch?v=FE_KnGLsX5c';
+  };
+
+  const evitarKCRompanMyBobo = () => {
+    heroButtonNo.style.position = 'absolute';
+    heroButtonNo.style.top = (Math.random() * window.innerHeight) + 'px';
+    heroButtonNo.style.left = (Math.random() * window.innerWidth) + 'px';
+  };
+  heroButtonSi.addEventListener('click', nowZomosNobios);
+  heroButtonNo.addEventListener('mouseover', evitarKCRompanMyBobo);
+};
+
+document.addEventListener('DOMContentLoaded', documentReady);
+</script>
+</body>
+
+</html>
